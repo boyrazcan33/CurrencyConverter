@@ -3,7 +3,7 @@ A clean and simple Flutter application for real-time currency exchange rates wit
 Features
 
 Real-time exchange rates from FreeCurrencyAPI
-EUR ↔ USD conversion with instant swap functionality
+EUR to USD conversion with instant swap functionality
 20+ supported currencies including USD, EUR, GBP, JPY, AUD, CAD, CHF, CNY
 Clean Material Design with gradient backgrounds and smooth animations
 Quick amount selection buttons (100, 500, 1000, 5000)
@@ -21,11 +21,11 @@ Installation
 
 Clone the repository
 
-bashgit clone https://github.com/yourusername/currency-exchange-app.git
+bashgit clone https://github.com/boyrazcan33/CurrencyConverter.git
 cd currency-exchange-app
 
 Install dependencies
-
+(Better run in Chrome to avoid potential version issues) flutter run , 2 
 bashflutter pub get
 
 Run the app
@@ -69,4 +69,4 @@ sdk: flutter
 http: ^1.1.0              # HTTP requests
 cupertino_icons: ^1.0.2   # Icons
 Supported Currencies
-USD, EUR, GBP, JPY, AUD, CAD, CHF, CNY, SEK, NZD, MXN, SGD, HKD, NOK, TRY, RUB, INR, BRL, ZAR, KRWgit add . 
+USD, EUR, GBP, JPY, AUD, CAD, CHF, CNY, SEK, NZD, MXN, SGD, HKD, NOK, TRY, RUB, INR, BRL, ZAR, KRW
